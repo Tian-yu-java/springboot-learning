@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: boot-07-read-value
+server:
+  port: 8888
+  servlet:
+    context-path: /myweb
+
+#app.info
+app:
+  info: 外部化配置
+
+
+zhangsan:
+  name: 张三
+  age: 18

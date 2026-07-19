@@ -1,0 +1,17 @@
+#创建tomcat端口号
+server:
+  port: 8888
+  servlet:
+    #设置应用路径
+    context-path: /myweb
+
+
+
+#创建应用的名称
+spring:
+  application:
+    name: myfirstweb
+
+    config:
+      import:  classpath:/conf/db.yml,classpath:/conf/redis.yml
+#导入其他配置文件

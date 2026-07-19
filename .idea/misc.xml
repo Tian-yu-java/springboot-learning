@@ -9,6 +9,9 @@
         <option value="$PROJECT_DIR$/boo-002-pom/pom.xml" />
         <option value="$PROJECT_DIR$/boot-003-web-demo/pom.xml" />
         <option value="$PROJECT_DIR$/boot-05-create-bean/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-06-file-prop/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-07-read-value/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-08-read-value/pom.xml" />
       </list>
     </option>
   </component>

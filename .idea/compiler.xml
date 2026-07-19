@@ -7,9 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="boot-05-create-bean" />
+        <module name="boo-002-pom" />
+        <module name="boot-06-file-prop" />
+        <module name="boot-07-read-value" />
+        <module name="boot-07-read-value (1)" />
         <module name="boot-002-create" />
         <module name="boot-003-web-demo" />
-        <module name="boo-002-pom" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +24,9 @@
       <module name="boot-001-create" options="-parameters" />
       <module name="boot-003-web-demo" options="-parameters" />
       <module name="boot-05-create-bean" options="-parameters" />
+      <module name="boot-06-file-prop" options="-parameters" />
+      <module name="boot-07-read-value" options="-parameters" />
+      <module name="boot-07-read-value (1)" options="-parameters" />
     </option>
   </component>
 </project>
