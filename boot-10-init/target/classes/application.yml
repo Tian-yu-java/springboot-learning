@@ -1,0 +1,9 @@
+#核心文件 8090 激活dev
+spring:
+  application:
+    name: boot-10-profiles
+
+server:
+  port: 8090
+  servlet:
+    context-path: /myweb

@@ -1,0 +1,7 @@
+#测试开发 9001
+zhangsan:
+  name: 张三-测试环境
+  age: 30
+
+server:
+  port: 9001

@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.wcy</groupId>
-    <artifactId>boot-07-read-value</artifactId>
+    <artifactId>boot-08-read-value</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>boot-07-read-value</name>
     <description>boot-07-read-value</description>
