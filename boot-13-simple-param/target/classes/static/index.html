@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>提交多个参数</title>
+</head>
+<body>
+
+    <form action="/user/add" method="get">
+        <!--name,age 就是请求中的参数名称
+        如果不要value 直接去掉就行
+        姓名: <input name="name"><br/>
+        -->
+        姓名: <input name="name" value="李四"><br/>
+        年龄: <input name="age" value="20"><br/>
+        <input type="submit" value="get注册新用户">
+    </form>
+    <br/>
+    <form action="/user/add" method="post">
+        姓名: <input name="name" value="李四"><br/>
+        年龄: <input name="age" value="20"><br/>
+        <input type="submit" value="post注册新用户">
+    </form>
+    <br/>
+    <form action="/user/create" method="get">
+        姓名: <input name="userName" value="李四"><br/>
+        年龄: <input name="userAge" value="20"><br/>
+        <input type="submit" value="/user/create注册新用户">
+    </form>
+
+</body>
+</html>

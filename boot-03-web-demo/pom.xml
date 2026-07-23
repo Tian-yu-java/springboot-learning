@@ -9,23 +9,18 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.wcy</groupId>
-    <artifactId>boot-08-read-value</artifactId>
+    <artifactId>boot-03-web-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>boot-08-read-value</name>
-    <description>boot-08-read-value</description>
-    <url/>
-    <licenses>
-        <license/>
-    </licenses>
-    <developers>
-        <developer/>
-    </developers>
-    <scm>
-        <connection/>
-        <developerConnection/>
-        <tag/>
-        <url/>
-    </scm>
+    <name>boot-03-web-demo</name>
+    <description>boot-03-web-demo</description>
+   <!-- Spring Web依赖(服务器(tomcat),servlet,json处理库)
+        starter:启动器;
+        1:依赖管理;
+        2:自动赋值
+spring boot-starter-xxx 官方依赖
+xxx-starter:第三方依赖(其他组织提供)
+   -->
+
     <properties>
         <java.version>25</java.version>
     </properties>
@@ -40,7 +35,9 @@
             <artifactId>spring-boot-starter-webmvc-test</artifactId>
             <scope>test</scope>
         </dependency>
+
     </dependencies>
+    
 
     <build>
         <plugins>
